@@ -324,9 +324,9 @@ header nav .navbar-header .social-medias a:last-child img {
   font-size: 14.75em;
   font-weight: bold;
   float: left;
-  margin: 0px auto;
+  margin: -9.5% auto 0px auto;
   padding: 0px;
-  top: -55%;
+  top: -9.5%;
 }
 .content-page > section#primeiros-passos article > p:nth-child(2) {
   margin: 0px;
