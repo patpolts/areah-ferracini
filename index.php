@@ -421,7 +421,7 @@
                         <p>Um único par de sapatos pode passar por até 2.000 mãos no processo de produção na fábrica, o que garante que cada par seja único. Assista</p>
                     </div> 
                 </div>
-
+                
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
