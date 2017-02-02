@@ -267,7 +267,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="video">
-                                <iframe width="560" height="315" src="http://www.youtube.com/embed/pS8TzJpP_bA" frameborder="0" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/pS8TzJpP_bA" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div> 
@@ -426,7 +426,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="video">
-                                <iframe width="560" height="315" src="http://www.youtube.com/embed/pVwChGVTkhI?rel=0" frameborder="0" scrolling="no" ></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/pVwChGVTkhI?rel=0" frameborder="0" scrolling="no" ></iframe>
                             </div>
                         </div>
                     </div> 
@@ -494,7 +494,6 @@
     <script src="js/libs/bootstrap.min.js"></script>
     <!-- Scrolling Nav JavaScript -->
     <script src="js/libs/jquery.easing.min.js"></script>
-    <!--<script src="https://www.youtube.com/iframe_api"></script>-->
 
     <!-- Slider -->
     <script src="js/slider.js"></script> 
