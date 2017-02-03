@@ -1,3 +1,146 @@
+@font-face {
+  font-family: 'just_another_handregular';
+  src: url('../fonts/justanotherhand-webfont.woff2') format('woff2'), url('../fonts/justanotherhand-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'league_gothiccondensed_italic';
+  src: url('../fonts/leaguegothic-condenseditalic-webfont.woff2') format('woff2'), url('../fonts/leaguegothic-condenseditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'league_gothicCnRg';
+  src: url('../fonts/leaguegothic-condensedregular-webfont.woff2') format('woff2'), url('../fonts/leaguegothic-condensedregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'league_gothicitalic';
+  src: url('../fonts/leaguegothic-italic-webfont.woff2') format('woff2'), url('../fonts/leaguegothic-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'league_gothicregular';
+  src: url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'), url('../fonts/leaguegothic-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'oswaldbold';
+  src: url('../fonts/oswald-bold-webfont.woff2') format('woff2'), url('../fonts/oswald-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'oswaldlight';
+  src: url('../fonts/oswald-light-webfont.woff2') format('woff2'), url('../fonts/oswald-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'oswaldregular';
+  src: url('../fonts/oswald-regular-webfont.woff2') format('woff2'), url('../fonts/oswald-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.woff2') format('woff2'), url('../fonts/Helvetica.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* defaults */
+hr {
+  background: url("../imgs/bg-hr.png") top center no-repeat;
+  width: 100%;
+  height: 80px;
+  border: none;
+}
+.text-breaker {
+  display: inline-block;
+  margin: 2.8em 0px;
+  width: 100%;
+}
+.icon-quote-left {
+  background: url("../imgs/icon-quotes-left.png") top left no-repeat;
+  width: 100%;
+  height: 62px;
+  margin: .3em 0px 1em 0px;
+  float: left;
+}
+.icon-quote-right {
+  background: url("../imgs/icon-quotes-right.png") top right no-repeat;
+  width: 100%;
+  height: 55px;
+  margin: 0px auto 0 20%;
+  float: right;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.ico-down {
+  background: url("../imgs/icon-arrow-down.png") center center no-repeat;
+  width: 35px;
+  height: 30px;
+  display: inline-block;
+  margin: 45px 0px 0px 0px;
+  cursor: pointer;
+}
+.icon-top {
+  position: fixed;
+  top: 48%;
+  right: 5%;
+  width: 59px;
+  height: 59px;
+  border-radius: 100%;
+  border: 5px solid #d8d8d8;
+  background: #c5c5c5;
+  cursor: pointer;
+  text-align: center;
+  z-index: 297;
+  -webkit-transition: "all .4s ease-in-out";
+  -moz-transition: "all .4s ease-in-out";
+  -o-transition: "all .4s ease-in-out";
+  transition: "all .4s ease-in-out";
+}
+.icon-top img {
+  width: auto;
+  height: auto;
+  margin: 26% auto 0px 5%;
+}
+.icon-top:hover {
+  background: #e8e8e8;
+  border: 5px solid #d9d9d9;
+}
+/* Functions */
+/* Font styles */
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.font-helvetica {
+  font-family: 'Helvetica', sans-serif;
+}
+.font-oswald {
+  font-family: 'oswaldregular', sans-serif;
+}
+.font-oswald-bold {
+  font-family: 'oswaldbold', sans-serif;
+}
+.font-oswald-light {
+  font-family: 'oswaldlight', sans-serif;
+}
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
 html {
   width: 100%;
   height: 100%;
@@ -368,7 +511,7 @@ header nav .navbar-header .social-medias a:last-child img {
   color: #181818;
   text-align: justify;
   margin: 0px 0px 2.8em 0px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Helvetica', sans-serif;
   float: left;
 }
 .content-page > section article .section-details {
@@ -401,7 +544,7 @@ header nav .navbar-header .social-medias a:last-child img {
   text-align: center;
   margin: 0px;
   width: 90% !important;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Helvetica', sans-serif;
   float: left;
 }
 .content-page > section article blockquote figure {
@@ -443,7 +586,7 @@ header nav .navbar-header .social-medias a:last-child img {
   padding: 0px;
   width: 100%;
   height: auto;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Helvetica', sans-serif;
   text-transform: uppercase;
 }
 .content-page > section h1 + p {
@@ -550,7 +693,7 @@ header nav .navbar-header .social-medias a:last-child img {
   padding: 1.5em 1.5em 0 1.5em;
   max-height: 85px;
   font-weight: 600;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 .slider > .slider-content#bizarrices-nos-pes-slide > span.prev {
   margin: 0px;
@@ -600,90 +743,7 @@ footer figure img {
 footer p {
   color: #cdab91;
   font-size: .81em;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-/* defaults */
-hr {
-  background: url("../imgs/bg-hr.png") top center no-repeat;
-  width: 100%;
-  height: 80px;
-  border: none;
-}
-.text-breaker {
-  display: inline-block;
-  margin: 2.8em 0px;
-  width: 100%;
-}
-.icon-quote-left {
-  background: url("../imgs/icon-quotes-left.png") top left no-repeat;
-  width: 100%;
-  height: 62px;
-  margin: .3em 0px 1em 0px;
-  float: left;
-}
-.icon-quote-right {
-  background: url("../imgs/icon-quotes-right.png") top right no-repeat;
-  width: 100%;
-  height: 55px;
-  margin: 0px auto 0 20%;
-  float: right;
-}
-.left {
-  float: left;
-}
-.right {
-  float: right;
-}
-.ico-down {
-  background: url("../imgs/icon-arrow-down.png") center center no-repeat;
-  width: 35px;
-  height: 30px;
-  display: inline-block;
-  margin: 45px 0px 0px 0px;
-  cursor: pointer;
-}
-.icon-top {
-  position: fixed;
-  top: 48%;
-  right: 5%;
-  width: 59px;
-  height: 59px;
-  border-radius: 100%;
-  border: 5px solid #d8d8d8;
-  background: #c5c5c5;
-  cursor: pointer;
-  text-align: center;
-  z-index: 297;
-  -webkit-transition: "all .4s ease-in-out";
-  -moz-transition: "all .4s ease-in-out";
-  -o-transition: "all .4s ease-in-out";
-  transition: "all .4s ease-in-out";
-}
-.icon-top img {
-  width: auto;
-  height: auto;
-  margin: 26% auto 0px 5%;
-}
-.icon-top:hover {
-  background: #e8e8e8;
-  border: 5px solid #d9d9d9;
-}
-/* Functions */
-/* Font styles */
-.uppercase {
-  text-transform: uppercase;
-}
-.capitalize {
-  text-transform: capitalize;
-}
-.font-helvetica {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-.font-oswald {
-  font-family: 'Oswald', sans-serif;
-}
-.font-roboto {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 @media (min-width: 768px) {
   .navbar {
