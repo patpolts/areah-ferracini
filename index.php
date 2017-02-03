@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <title>Ferracini - Sapato Masculino</title>
    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
 
    <link href="css/style.css" rel="stylesheet">
 
@@ -50,7 +50,7 @@
                     <div class="col-xs-12">
                         <article>
                             <div class="page-creditos">
-                                <small>vídeo</small>
+                                <small>Vídeo</small>
                                 <p>Bruno Rodrigues</p>
                             </div>
                             <div class="page-creditos">

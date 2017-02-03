@@ -89,7 +89,7 @@ hr {
   width: 35px;
   height: 30px;
   display: inline-block;
-  margin: 45px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
   cursor: pointer;
 }
 .icon-top {
@@ -140,6 +140,19 @@ hr {
 }
 .font-roboto {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.font-roboto-thin {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.font-roboto-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.font-roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 html {
   width: 100%;
@@ -243,50 +256,59 @@ header > section {
   position: relative;
   width: 100%;
   height: 100%;
-  margin: 0px;
-  padding: 9% 0px 0px 0px;
+  margin: 122px 0px 0px 0px;
+  padding: 0px;
   text-align: center;
   z-index: 3;
 }
 header > section figure {
-  margin: 0px auto 40px auto;
+  margin: 0px auto;
   padding: 0px;
-  width: 260px;
+  width: 258px;
   height: auto;
 }
 header > section figure > img {
-  width: 95%;
+  width: 100%;
   height: auto;
-  margin: 0px 0px 21px 0px;
+  margin: 0px;
 }
 header > section figure > figcaption {
-  font-size: 157%;
-  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
   color: #fff;
-  font-weight: normal;
+  font-weight: lighter;
   text-transform: uppercase;
+  margin: 22px 0px 0px 0px;
+  height: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 header > section hgroup {
-  margin: 1% 0px 4% 0px;
+  margin: 44px 0px 40px 0px;
 }
 header > section hgroup > h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1000%;
   color: #fff;
-  font-weight: bold;
   text-transform: uppercase;
   margin: 0px;
   padding: 0px;
+  position: relative;
+  font-family: 'oswaldbold', sans-serif;
+}
+header > section hgroup > h1:first-child {
+  font-size: 167.53px;
+}
+header > section hgroup > h1:last-child {
+  font-size: 106.52px;
+  top: -22px;
 }
 header > section p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 150%;
+  font-size: 1.5em;
   color: #fff;
   text-align: center;
   word-wrap: break-word;
-  margin: 0px auto;
-  font-weight: lighter;
-  width: 40%;
+  margin: 2em auto 0px auto;
+  width: 48%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 header > section article {
   width: 100%;
@@ -316,24 +338,28 @@ header > section article > div > p {
   padding: 0px;
 }
 header section article .page-creditos {
-  margin: 1% 0 0 0;
+  margin: 3em 0 0 0;
+  width: 13em;
 }
 header section article .page-creditos p {
   width: 100%;
   float: left;
   clear: both;
   text-align: center;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 header section article .page-creditos small {
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   color: #b2b2b2;
   float: left;
   clear: both;
   width: 100%;
   text-align: center;
-  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 /* header menu */
 header nav {
