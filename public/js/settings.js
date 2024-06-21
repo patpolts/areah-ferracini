@@ -1,8 +1,8 @@
 "use strict"
 /***********************************************
- * slider.js
+ * settings.js
  * company: areaH.com.br
- * developer: Poltts <patricia.leite@marketup.com>
+ * developer: Poltts <patriciapoltts@gmail.com>
 ************************************************/
 
 var headerH     = $("header").css("height");
