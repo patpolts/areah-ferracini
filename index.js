@@ -8,7 +8,6 @@ app.use(express.static('public'))
 app.get('*', (req, res) => {
     const indexPath = path.resolve(__dirname,'index.html');
     res.sendFile(indexPath);
-    console.log(`Enviando arquivo ${indexPath}`);
 })
 
 app.listen(port, () => {
