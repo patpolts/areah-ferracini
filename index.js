@@ -6,7 +6,8 @@ const port = 3300
 app.use(express.static('public'))
 
 app.get('*', (req, res) => {
-    res.sendFile('index.html', {root: path.join(process.cwd(), "/public/")})
+    res.sendFile(path.join(__dirname, '/public/index.html'))
+    console.log(__dirname)
 })
 
 app.listen(port, () => {
