@@ -1,7 +1,7 @@
 /*********************************************** 
  * slider.js
  * company: areaH.com.br
- * developer: Poltts <patricia.leite@marketup.com> 
+ * developer: Poltts <patriciapoltts@gmail.com> 
 ************************************************/
 
  function slider(theSlider){
