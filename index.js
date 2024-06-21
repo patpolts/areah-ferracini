@@ -6,8 +6,9 @@ const port = 3300
 app.use(express.static('public'))
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/index.html'))
-    console.log(__dirname)
+    const indexPath = path.join(__dirname, 'public', 'index.html');
+    res.sendFile(indexPath);
+    console.log(`Enviando arquivo ${indexPath}`);
 })
 
 app.listen(port, () => {
