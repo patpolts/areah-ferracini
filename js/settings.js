@@ -1,8 +1,9 @@
 "use strict"
 /***********************************************
  * settings.js
- * company: areaH.com.br
+ * developed for company: areaH.com.br
  * developer: Pati Poltts <me@poltts.com.br>
+ * showcase: https://github.com/patpolts/areah-ferracini.git
 ************************************************/
 let brand = $("#brand");
 let headerH = $("header").css("height");
@@ -35,6 +36,11 @@ $(window).scroll(function () {
 
 async function init() {
     const activeElement = document.activeElement || null;
+    if(document.innerWidth > 768){
+        $(".unsupported").show();
+        console.log(1);
+        
+    }
     $(window).scrollTop(0);
 
     loadingElement.setAttribute('aria-hidden', 'true');
