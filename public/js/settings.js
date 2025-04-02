@@ -1,6 +1,6 @@
 "use strict"
 /***********************************************
- * slider.js
+ * settings.js
  * company: areaH.com.br
  * developer: Pati Poltts <me@poltts.com.br>
 ************************************************/
