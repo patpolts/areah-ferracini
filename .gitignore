@@ -1,2 +1,2 @@
-css/style.less
-node_modules/
+.env
+node_modules
