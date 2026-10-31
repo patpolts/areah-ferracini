@@ -3,7 +3,7 @@ const app = express()
 const path = require('path')
 const port = 3300
 
-app.use(express.static('public'))
+app.use(express.static('./'))
 
 app.get('*', (req, res) => {
     const indexPath = path.resolve(__dirname,'index.html');
