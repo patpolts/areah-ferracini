@@ -17,30 +17,45 @@ let contentElement = document.querySelector('.content');
 let isPlayingHeaderVideo = true;
 
 
+
 let loading = setInterval(async () => {
     if (document.readyState === 'complete') {
         clearInterval(loading);
-
         await init();
 
     } else {
         $(".loading").show();
-    }
 
+    }
 }, 100);
 
 
 $(window).scroll(function () {
     scrollSettings();
 });
+$(window).on('resize', () => {
+    if (window.innerWidth > 1024) {
+        $(".unsupported").show();
+        $(".loading").hide();
+        $(".content").hide();
+        return;
 
+    } else {
+        $(".unsupported").hide();
+        // $(".loading").hide();
+        $(".content").show();
+        return;
+    }
+});
 async function init() {
     const activeElement = document.activeElement || null;
-    if(document.innerWidth > 768){
+    if (window.innerWidth < 1024) {
         $(".unsupported").show();
-        console.log(1);
-        
+        $(".loading").hide();
+        $(".content").hide();
+        return;
     }
+
     $(window).scrollTop(0);
 
     loadingElement.setAttribute('aria-hidden', 'true');
@@ -61,15 +76,12 @@ async function init() {
         $('.navbar-collapse').collapse('hide');
     });
 
-    if (window.innerWidth > 320) {
-        $(".unsupported").show();
-    }
-
     initEvents();
     handleInfoGraphicDrag();
 
     return;
 }
+
 
 function scrollSettings() {
     if ($(".navbar").offset().top > 50) {
