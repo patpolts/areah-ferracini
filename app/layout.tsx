@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
@@ -78,7 +77,6 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`${bodyFont.variable} ${displayFont.variable}`}>
         {children}
-        <SpeedInsights />
       </body>
     </html>
   );

@@ -136,17 +136,14 @@ export default function Home() {
         <section
           id="inicio"
           aria-labelledby="hero-title"
-          className="relative flex min-h-[min(100svh,51rem)] items-center overflow-hidden bg-[#171b1e] px-0 pt-20 pb-16 text-white lg:min-h-[1020px]"
+          className="relative flex min-h-[min(100svh,51rem)] items-center overflow-hidden bg-[#171b1e] px-0 pt-20 pb-16 text-white lg:min-h-255"
         >
-          <Image
-            src="/imgs/img-header.png"
-            alt=""
-            fill
-            loading="eager"
-            fetchPriority="high"
-            sizes="100vw"
-            className="scale-125 object-cover object-center"
-          />
+          <picture>
+            <source media="(max-width: 767px)" srcSet="/imgs/img-header-mobile.webp" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/imgs/img-header.webp" alt="" fetchPriority="high" decoding="async"
+                className="absolute inset-0 h-full w-full scale-125 object-cover object-center" />
+          </picture>
           <HeroBackgroundVideo />
           <div
             className="absolute inset-0 z-20 bg-[#080b0c]/85"
