@@ -64,18 +64,9 @@ Landing page criada em 2011 orginalmente com HTML 5 / CSS 3 / BootStrap / JQuery
 Essas mudanças seguem boas práticas de SEO, desempenho e acessibilidade, mas não garantem posições específicas no Google nem pontuação determinada no Lighthouse ou Speed Insights. As métricas reais dependem também da hospedagem, do dispositivo, da rede e do carregamento do YouTube.
 
 ## Impactos SEO & Performance  
-Dados de análise do PageSpeed Insights  
--
-### Antes  
-- **Mobile**:  
-![Page Speed Mobile](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496467/print_before_areahOtimization_mobile.jpg) ![Page Speed Mobile Metrics](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_mobile2.jpg)  
+Dados de análise coletados via **Google PageSpeed Insights**.
 
-- **Desktop**:  
-![Page Speed](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_desktop.jpg) ![Page Speed Metrics](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_desktop2.jpg)    
--
-### Depois  
-- **Mobile**:  
-![Page Speed Mobile](https://res.cloudinary.com/rhvrqux3/image/upload/v1793501883/print_after_areahOtimization_desktop.jpg) ![Page Speed Mobile Metrics](https://res.cloudinary.com/rhvrqux3/image/upload/v1793501887/print_after_areahOtimization_mobile2.jpg)  
-
-- **Desktop**:  
-![Page Speed](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_desktop.jpg) ![Page Speed Metrics](https://res.cloudinary.com/rhvrqux3/image/upload/v1793501884/print_after_areahOtimization_desktop2.jpg) 
+| Dispositivo | Antes | Depois |
+| :--- | :--- | :--- |
+| **Mobile** | ![Mobile Antes 1](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496467/print_before_areahOtimization_mobile.jpg)<br><br>![Mobile Antes 2](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_mobile2.jpg) | ![Mobile Depois 1](https://res.cloudinary.com/rhvrqux3/image/upload/v1793501883/print_after_areahOtimization_desktop.jpg)<br><br>![Mobile Depois 2](https://res.cloudinary.com/rhvrqux3/image/upload/v1793501887/print_after_areahOtimization_mobile2.jpg) |
+| **Desktop** | ![Desktop Antes 1](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_desktop.jpg)<br><br>![Desktop Antes 2](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_desktop2.jpg) | ![Desktop Depois 1](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_desktop.jpg)<br><br>![Desktop Depois 2](https://res.cloudinary.com/rhvrqux3/image/upload/v1793501884/print_after_areahOtimization_desktop2.jpg) |
