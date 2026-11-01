@@ -1,0 +1,227 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--body-font), Arial, sans-serif;
+  --font-display: var(--display-font), Impact, sans-serif;
+  --color-ink: #181818;
+  --color-paper: #d9d9d9;
+  --color-brand: #a71920;
+  --color-brand-dark: #791219;
+  --color-muted: #5b6267;
+  --color-line: #ded8ce;
+}
+
+:root {
+  color-scheme: light;
+  background: #d9d9d9;
+  color: #181818;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--body-font), Arial, sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #e6b849;
+  outline-offset: 4px;
+}
+
+::selection {
+  background: #a71920;
+  color: #fff;
+}
+
+.font-display {
+  font-family: var(--display-font), Impact, sans-serif;
+}
+
+.section-anchor {
+  scroll-margin-top: 0;
+}
+
+.article-copy {
+  color: #181818;
+  font-size: clamp(1rem, 1.08vw, 1.125rem);
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.article-copy p + p {
+  margin-top: 1.35rem;
+}
+
+.content-width {
+  width: min(100% - 2.5rem, 72rem);
+  margin-inline: auto;
+}
+
+.editorial-heading {
+  color: #93130b;
+  font-family: var(--body-font), Arial, sans-serif;
+  font-size: clamp(1.7rem, 3.2vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.editorial-intro {
+  margin: 0.75rem auto 0;
+  max-width: 46rem;
+  color: #454545;
+  font-size: clamp(1rem, 1.25vw, 1.25rem);
+  line-height: 1.7;
+  text-align: center;
+}
+
+.story-divider {
+  height: 5rem;
+  border: 0;
+  background: url("/imgs/bg-hr.png") center center / min(100%, 1181px) 81px
+    no-repeat;
+}
+
+.wide-image-scroll.is-dragging {
+  cursor: grabbing;
+  scroll-behavior: auto;
+}
+
+.wide-image-scroll img {
+  pointer-events: none;
+}
+
+@supports (animation-timeline: view()) {
+  .section-reveal {
+    animation: section-reveal 700ms both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 24%;
+  }
+
+  @keyframes section-reveal {
+    from {
+      opacity: 0.55;
+      transform: translateY(1.25rem);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.wide-image-scroll {
+  overscroll-behavior-inline: contain;
+  scrollbar-color: #a71920 #e8e2d9;
+  scrollbar-width: thin;
+}
+
+.wide-image-scroll img {
+  max-width: none;
+}
+
+.lead-drop-cap:first-letter {
+  float: left;
+  margin: -0.07em 0.06em -0.15em 0;
+  color: #181818;
+  font-size: 4.8em;
+  font-weight: 700;
+  line-height: 0.95;
+}
+
+.video-frame {
+  aspect-ratio: 16 / 9;
+}
+
+.hero-background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  width: max(100%, 177.78vh);
+  height: max(100%, 56.25vw);
+  aspect-ratio: 16 / 9;
+  transform: translate(-50%, -50%) scale(1.25);
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 700ms ease;
+}
+
+.hero-background-video-ready {
+  opacity: 1;
+}
+
+.hero-dot-overlay {
+  background-image: radial-gradient(
+    circle,
+    rgb(255 255 255 / 22%) 0.65px,
+    transparent 0.9px
+  );
+  background-size: 4px 4px;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    #inicio > img {
+      animation: hero-parallax linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 640px;
+    }
+
+    @keyframes hero-parallax {
+      to {
+        transform: translateY(12%);
+      }
+    }
+  }
+}
+
+@media (width >= 64rem) {
+  :root {
+    scroll-padding-top: 6.875rem;
+  }
+
+  .wide-image-scroll {
+    cursor: grab;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .wide-image-scroll {
+    scroll-behavior: auto !important;
+  }
+}
