@@ -65,10 +65,17 @@ Essas mudanças seguem boas práticas de SEO, desempenho e acessibilidade, mas n
 
 ## Impactos SEO & Performance  
 Dados de análise do PageSpeed Insights  
-
+-
 ### Antes  
 - **Mobile**:  
 ![Page Speed Mobile](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496467/print_before_areahOtimization_mobile.jpg) ![Page Speed Mobile Metrics](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_mobile2.jpg)  
 
 - **Desktop**:  
-![Page Speed](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_desktop.jpg) ![Page Speed Metrics](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_mobile2.jpg)    
+![Page Speed](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_desktop.jpg) ![Page Speed Metrics](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_desktop2.jpg)    
+-
+### Depois  
+- **Mobile**:  
+![Page Speed Mobile](https://res.cloudinary.com/rhvrqux3/image/upload/v1793501883/print_after_areahOtimization_desktop.jpg) ![Page Speed Mobile Metrics](https://res.cloudinary.com/rhvrqux3/image/upload/v1793501887/print_after_areahOtimization_mobile2.jpg)  
+
+- **Desktop**:  
+![Page Speed](https://res.cloudinary.com/rhvrqux3/image/upload/v1793496409/print_before_areahOtimization_desktop.jpg) ![Page Speed Metrics](https://res.cloudinary.com/rhvrqux3/image/upload/v1793501884/print_after_areahOtimization_desktop2.jpg) 
