@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: "export",
   images: {
-    unoptimized: true,
+    loader: "custom",
+    loaderFile: "./lib/image-loader.ts",
   },
 };
 
