@@ -191,6 +191,7 @@ export function SiteNavigation() {
               height={42}
               className="h-8 w-auto object-contain"
               style={{ width: "auto", height: "32px" }}
+              priority
             />
           </a>
 
@@ -205,6 +206,7 @@ export function SiteNavigation() {
               width={111}
               height={20}
               className="h-5 w-auto object-contain"
+              priority
             />
           </a>
 
@@ -221,6 +223,7 @@ export function SiteNavigation() {
                 alt=""
                 width={31}
                 height={31}
+                priority
               />
             </a>
             <a
@@ -230,7 +233,7 @@ export function SiteNavigation() {
               aria-label="Ferracini no Twitter (abre em nova aba)"
               className="rounded-sm"
             >
-              <Image src="/imgs/icon-twitter.png" alt="" width={31} height={31} />
+              <Image src="/imgs/icon-twitter.png" alt="" width={31} height={31} priority />
             </a>
           </div>
 
