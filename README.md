@@ -24,3 +24,6 @@ This project is a sleek and modern landing page designed to highlight my portfol
 
 #### License
 This project is distributed under the MIT License. For more details, refer to the `LICENSE` file.
+
+### Before optimize  
+https://patpolts.github.io/areah-ferracini
